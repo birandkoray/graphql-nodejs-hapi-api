@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "cd client && yarn install && yarn build && cd .. && node app.js",
-    "heroku-postbuild" : "yarn install && yarn build && cd client && yarn install && yarn build && cd .."
+    "start": "node app.js",
+    "heroku-postbuild" : "npm install && npm run build && cd client && npm install && npm run build && cd .."
   },
   "keywords": [],
   "author": "Birand Koray Eren",
