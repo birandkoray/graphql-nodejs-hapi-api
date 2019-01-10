@@ -7,7 +7,7 @@ import gql from "graphql-tag";
 import { ApolloProvider , Query } from "react-apollo";
 
 const client = new ApolloClient({
-	uri: "http://localhost:4000/graphql"
+	uri: "http://apollographql.us-east-1.elasticbeanstalk.com:"+ (process.env.PORT || 4000) + "/graphql"
 })
 
 
