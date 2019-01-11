@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 const server = new ApolloServer({ schema});
 
-app.use(express.static(path.join(__dirname , 'client/build')))
+//app.use(express.static(path.join(__dirname , 'client/build')))
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
