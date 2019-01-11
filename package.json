@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "heroku-postbuild" : "npm install && npm run build && cd client && npm install && npm run build && cd .."
+    "start": "nodemon app.js",
+    "heroku-postbuild": "npm install && cd client && npm install && npm run build && cd .."
   },
   "keywords": [],
   "author": "Birand Koray Eren",
