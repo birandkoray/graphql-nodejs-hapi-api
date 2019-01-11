@@ -40,10 +40,10 @@ app.route('/api/v1/paintings').get((req, reply) => {
 })
 
 
-app.get('*' , (req , res) => {
+/*app.get('*' , (req , res) => {
 	res.sendFile(path.join(__dirname + '/client/build/index.html'))
 })
-
+*/
 
 
 server.applyMiddleware({app})
