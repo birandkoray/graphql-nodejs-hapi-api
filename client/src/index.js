@@ -7,7 +7,7 @@ import gql from "graphql-tag";
 import { ApolloProvider , Query } from "react-apollo";
 
 const client = new ApolloClient({
-	uri: "http://localhost:4000"+ "/graphql"
+	uri: "https://n57w7pmqq0.sse.codesandbox.io/graphql"
 })
 
 
